@@ -2,8 +2,9 @@
 //  DetailViewController.swift
 //  TrackingPeople
 //
-//  Created by Jose Preatorian on 03-10-24.
+//  Created by Jose David Bustos H on 28-09-19.
 //
+
 import UIKit
 
 @available(iOS 11.0, *)
@@ -67,7 +68,7 @@ class DetailViewController: UIViewController {
         view.addSubview(imageView)
         view.addSubview(nameLabel)
         view.addSubview(dobLabel)
-        view.addSubview(mapButton) // Agregar el botón a la vista
+        view.addSubview(mapButton)
 
         NSLayoutConstraint.activate([
             imageView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 30),
@@ -94,8 +95,8 @@ class DetailViewController: UIViewController {
 
     @objc private func showMap() {
         let mapVC = MapViewController()
-        mapVC.latitude = latitude // Asigna la latitud
-        mapVC.longitude = longitude // Asigna la longitud
+        mapVC.latitude = latitude
+        mapVC.longitude = longitude
         navigationController?.pushViewController(mapVC, animated: true)
     }
 }

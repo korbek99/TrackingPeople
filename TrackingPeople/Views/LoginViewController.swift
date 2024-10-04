@@ -2,7 +2,7 @@
 //  LoginViewController.swift
 //  TrackingPeople
 //
-//  Created by Jose Preatorian on 03-10-24.
+//  Created by Jose David Bustos H on 28-09-19.
 //
 
 import UIKit
@@ -34,7 +34,7 @@ class LoginViewController: UIViewController {
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
-    
+
     private let registerButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Register", for: .normal)
@@ -74,24 +74,21 @@ class LoginViewController: UIViewController {
     }
 
     @objc private func loginUser() {
-        guard let username = usernameTextField.text,
-              let password = passwordTextField.text else {
-            // Manejar campos vacíos
+        guard let username = usernameTextField.text, !username.isEmpty,
+              let password = passwordTextField.text, !password.isEmpty else {
             showAlert(message: "Por favor, complete todos los campos.")
             return
         }
 
         let users = getSavedUsers()
-        
         if let user = users.first(where: { $0.username == username && $0.password == password }) {
-            // Login exitoso
             print("Login successful for user: \(user.username)")
-            // Navegar a la siguiente vista o realizar otra acción
+            gotoHome()
         } else {
-            // Si no se encuentra el usuario, ir a la vista de registro
-//            showAlert(message: "Usuario no encontrado. ¿Deseas registrarte?")
+            showAlert(message: "Usuario no encontrado.")
+            //showAlert(message: "Usuario no encontrado")
 //            DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-                self.showRegistration()
+//                self.showRegistration()
 //            }
         }
     }
@@ -99,19 +96,22 @@ class LoginViewController: UIViewController {
     private func showAlert(message: String) {
         let alert = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default))
-        alert.addAction(UIAlertAction(title: "Registrar", style: .default) { _ in
-            self.showRegistration()
-        })
+//        alert.addAction(UIAlertAction(title: "Registrar", style: .default) { _ in
+//            self.showRegistration()
+//        })
         present(alert, animated: true)
     }
 
-
     @objc private func showRegistration() {
-        print("Navigating to RegistrationViewController")
         let registrationVC = RegistrationViewController()
         navigationController?.pushViewController(registrationVC, animated: true)
     }
 
+    @objc private func gotoHome() {
+        print("Navigating to HomeViewController")
+        let homeVC = HomeViewController()
+        navigationController?.pushViewController(homeVC, animated: true)
+    }
 
     private func getSavedUsers() -> [Users] {
         guard let data = UserDefaults.standard.data(forKey: "usersList"),
@@ -121,11 +121,8 @@ class LoginViewController: UIViewController {
         return savedUsers
     }
 
-//    private func showAlert(message: String) {
-//        let alert = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
-//        alert.addAction(UIAlertAction(title: "OK", style: .default))
-//        present(alert, animated: true)
-//    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationItem.hidesBackButton = true  // Oculta el botón de regreso
+    }
 }
-
-

@@ -2,8 +2,9 @@
 //  Users.swift
 //  TrackingPeople
 //
-//  Created by Jose Preatorian on 03-10-24.
+//  Created by Jose David Bustos H on 28-09-19.
 //
+
 import Foundation
 
 struct Users: Codable {

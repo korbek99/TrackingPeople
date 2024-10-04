@@ -2,8 +2,9 @@
 //  RegistrationViewController.swift
 //  TrackingPeople
 //
-//  Created by Jose Preatorian on 03-10-24.
+//  Created by Jose David Bustos H on 28-09-19.
 //
+
 import UIKit
 
 @available(iOS 11.0, *)
@@ -88,11 +89,11 @@ class RegistrationViewController: UIViewController {
     }
 
     @objc private func registerUser() {
-        guard let name = nameTextField.text,
-              let lastname = lastnameTextField.text,
-              let username = usernameTextField.text,
-              let password = passwordTextField.text else {
-            // Handle empty fields
+        guard let name = nameTextField.text, !name.isEmpty,
+              let lastname = lastnameTextField.text, !lastname.isEmpty,
+              let username = usernameTextField.text, !username.isEmpty,
+              let password = passwordTextField.text, !password.isEmpty else {
+            showAlert(message: "All fields must be filled out.")
             return
         }
 
@@ -105,6 +106,13 @@ class RegistrationViewController: UIViewController {
         let welcomeVC = WelcomeViewController()
         navigationController?.pushViewController(welcomeVC, animated: true)
     }
+
+    private func showAlert(message: String) {
+        let alert = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default))
+        present(alert, animated: true)
+    }
+
 
     private func saveUser(user: Users) {
         var savedUsers = getSavedUsers()

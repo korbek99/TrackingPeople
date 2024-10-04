@@ -47,8 +47,6 @@ class MapViewController: UIViewController {
         let region = MKCoordinateRegion(center: location, latitudinalMeters: 1000, longitudinalMeters: 1000)
 
         mapView.setRegion(region, animated: true)
-
-        // Añadir un pin en la ubicación
         let annotation = MKPointAnnotation()
         annotation.coordinate = location
         annotation.title = "Ubicación"
