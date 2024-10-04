@@ -11,19 +11,46 @@ class WelcomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        title = "Welcome"
+        setupUI()
     }
-    
 
-    /*
-    // MARK: - Navigation
+    private func setupUI() {
+        view.backgroundColor = .white
+        
+        // Crear una etiqueta de bienvenida
+        let welcomeLabel = UILabel()
+        welcomeLabel.text = "¡Bienvenido a la Aplicación!"
+        welcomeLabel.font = UIFont.boldSystemFont(ofSize: 24)
+        welcomeLabel.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(welcomeLabel)
+        
+        // Crear un botón de continuar
+        let continueButton = UIButton(type: .system)
+        continueButton.setTitle("Continuar", for: .normal)
+        continueButton.addTarget(self, action: #selector(continueTapped), for: .touchUpInside)
+        continueButton.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(continueButton)
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        // Configurar restricciones
+        NSLayoutConstraint.activate([
+            welcomeLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            welcomeLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -20),
+
+            continueButton.topAnchor.constraint(equalTo: welcomeLabel.bottomAnchor, constant: 20),
+            continueButton.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+        ])
     }
-    */
 
+    @objc private func continueTapped() {
+        // Navegar a la siguiente vista (puedes cambiar esto a tu vista deseada)
+        let nextViewController = HomeViewController() // Reemplaza con tu vista
+        navigationController?.pushViewController(nextViewController, animated: true)
+    }
 }
+
+
+
+
+
+

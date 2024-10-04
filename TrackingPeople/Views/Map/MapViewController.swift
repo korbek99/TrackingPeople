@@ -6,24 +6,52 @@
 //
 
 import UIKit
+import MapKit
 
+@available(iOS 11.0, *)
 class MapViewController: UIViewController {
+
+    var latitude: Double?
+    var longitude: Double?
+
+    private let mapView: MKMapView = {
+        let map = MKMapView()
+        map.translatesAutoresizingMaskIntoConstraints = false
+        return map
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        title = "Map"
+        setupViews()
+        displayLocation()
     }
-    
 
-    /*
-    // MARK: - Navigation
+    private func setupViews() {
+        view.backgroundColor = .white
+        view.addSubview(mapView)
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+       
+        NSLayoutConstraint.activate([
+            mapView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            mapView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
+            mapView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            mapView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+        ])
     }
-    */
 
+    private func displayLocation() {
+        guard let latitude = latitude, let longitude = longitude else { return }
+        
+        let location = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+        let region = MKCoordinateRegion(center: location, latitudinalMeters: 1000, longitudinalMeters: 1000)
+
+        mapView.setRegion(region, animated: true)
+
+        // Añadir un pin en la ubicación
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = location
+        annotation.title = "Ubicación"
+        mapView.addAnnotation(annotation)
+    }
 }

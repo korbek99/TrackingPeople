@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D90887602CAF858500DB2226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908875F2CAF858500DB2226 /* AppDelegate.swift */; };
 		D90887622CAF858500DB2226 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887612CAF858500DB2226 /* SceneDelegate.swift */; };
-		D90887642CAF858500DB2226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887632CAF858500DB2226 /* ViewController.swift */; };
+		D90887642CAF858500DB2226 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887632CAF858500DB2226 /* LoginViewController.swift */; };
 		D90887672CAF858500DB2226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90887652CAF858500DB2226 /* Main.storyboard */; };
 		D908876A2CAF858500DB2226 /* TrackingPeople.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D90887682CAF858500DB2226 /* TrackingPeople.xcdatamodeld */; };
 		D908876C2CAF858700DB2226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D908876B2CAF858700DB2226 /* Assets.xcassets */; };
@@ -17,6 +17,14 @@
 		D908877A2CAF858700DB2226 /* TrackingPeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887792CAF858700DB2226 /* TrackingPeopleTests.swift */; };
 		D90887842CAF858700DB2226 /* TrackingPeopleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887832CAF858700DB2226 /* TrackingPeopleUITests.swift */; };
 		D90887862CAF858700DB2226 /* TrackingPeopleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887852CAF858700DB2226 /* TrackingPeopleUITestsLaunchTests.swift */; };
+		D90887992CAF866E00DB2226 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887982CAF866E00DB2226 /* RegistrationViewController.swift */; };
+		D908879B2CAF868000DB2226 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908879A2CAF868000DB2226 /* Users.swift */; };
+		D908879F2CAF881D00DB2226 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908879E2CAF881D00DB2226 /* HomeViewController.swift */; };
+		D90887A12CAF895A00DB2226 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887A02CAF895A00DB2226 /* WelcomeViewController.swift */; };
+		D90887A32CAF900500DB2226 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887A22CAF900500DB2226 /* Person.swift */; };
+		D90887A62CAF908000DB2226 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887A52CAF908000DB2226 /* PersonTableViewCell.swift */; };
+		D90887A92CAF90FE00DB2226 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887A82CAF90FE00DB2226 /* DetailViewController.swift */; };
+		D90887AC2CAF912B00DB2226 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887AB2CAF912B00DB2226 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +48,7 @@
 		D908875C2CAF858500DB2226 /* TrackingPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackingPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D908875F2CAF858500DB2226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D90887612CAF858500DB2226 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D90887632CAF858500DB2226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D90887632CAF858500DB2226 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D90887662CAF858500DB2226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D90887692CAF858500DB2226 /* TrackingPeople.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrackingPeople.xcdatamodel; sourceTree = "<group>"; };
 		D908876B2CAF858700DB2226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +59,14 @@
 		D908877F2CAF858700DB2226 /* TrackingPeopleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackingPeopleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90887832CAF858700DB2226 /* TrackingPeopleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingPeopleUITests.swift; sourceTree = "<group>"; };
 		D90887852CAF858700DB2226 /* TrackingPeopleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingPeopleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D90887982CAF866E00DB2226 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		D908879A2CAF868000DB2226 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		D908879E2CAF881D00DB2226 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D90887A02CAF895A00DB2226 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		D90887A22CAF900500DB2226 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		D90887A52CAF908000DB2226 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		D90887A82CAF90FE00DB2226 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D90887AB2CAF912B00DB2226 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +117,13 @@
 		D908875E2CAF858500DB2226 /* TrackingPeople */ = {
 			isa = PBXGroup;
 			children = (
+				D90887952CAF85D000DB2226 /* LauchScreen */,
+				D90887942CAF85C000DB2226 /* StoryBoard */,
+				D90887932CAF85B100DB2226 /* Views */,
+				D90887922CAF85A500DB2226 /* Model */,
 				D908875F2CAF858500DB2226 /* AppDelegate.swift */,
 				D90887612CAF858500DB2226 /* SceneDelegate.swift */,
-				D90887632CAF858500DB2226 /* ViewController.swift */,
-				D90887652CAF858500DB2226 /* Main.storyboard */,
 				D908876B2CAF858700DB2226 /* Assets.xcassets */,
-				D908876D2CAF858700DB2226 /* LaunchScreen.storyboard */,
 				D90887702CAF858700DB2226 /* Info.plist */,
 				D90887682CAF858500DB2226 /* TrackingPeople.xcdatamodeld */,
 			);
@@ -128,6 +145,101 @@
 				D90887852CAF858700DB2226 /* TrackingPeopleUITestsLaunchTests.swift */,
 			);
 			path = TrackingPeopleUITests;
+			sourceTree = "<group>";
+		};
+		D90887922CAF85A500DB2226 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D908879A2CAF868000DB2226 /* Users.swift */,
+				D90887A22CAF900500DB2226 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D90887932CAF85B100DB2226 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D90887AA2CAF911900DB2226 /* Map */,
+				D908879D2CAF880700DB2226 /* Home */,
+				D908879C2CAF87F800DB2226 /* Welcome */,
+				D90887972CAF865500DB2226 /* Register */,
+				D90887962CAF864B00DB2226 /* Login */,
+				D90887632CAF858500DB2226 /* LoginViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D90887942CAF85C000DB2226 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D90887652CAF858500DB2226 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		D90887952CAF85D000DB2226 /* LauchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D908876D2CAF858700DB2226 /* LaunchScreen.storyboard */,
+			);
+			path = LauchScreen;
+			sourceTree = "<group>";
+		};
+		D90887962CAF864B00DB2226 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D90887972CAF865500DB2226 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				D90887982CAF866E00DB2226 /* RegistrationViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		D908879C2CAF87F800DB2226 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				D90887A02CAF895A00DB2226 /* WelcomeViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		D908879D2CAF880700DB2226 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D90887A72CAF90E300DB2226 /* Details */,
+				D90887A42CAF904700DB2226 /* Cells */,
+				D908879E2CAF881D00DB2226 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D90887A42CAF904700DB2226 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D90887A52CAF908000DB2226 /* PersonTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D90887A72CAF90E300DB2226 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				D90887A82CAF90FE00DB2226 /* DetailViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		D90887AA2CAF911900DB2226 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				D90887AB2CAF912B00DB2226 /* MapViewController.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +373,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D90887642CAF858500DB2226 /* ViewController.swift in Sources */,
+				D90887A92CAF90FE00DB2226 /* DetailViewController.swift in Sources */,
+				D90887642CAF858500DB2226 /* LoginViewController.swift in Sources */,
+				D90887A12CAF895A00DB2226 /* WelcomeViewController.swift in Sources */,
 				D90887602CAF858500DB2226 /* AppDelegate.swift in Sources */,
 				D90887622CAF858500DB2226 /* SceneDelegate.swift in Sources */,
 				D908876A2CAF858500DB2226 /* TrackingPeople.xcdatamodeld in Sources */,
+				D908879B2CAF868000DB2226 /* Users.swift in Sources */,
+				D90887AC2CAF912B00DB2226 /* MapViewController.swift in Sources */,
+				D90887A32CAF900500DB2226 /* Person.swift in Sources */,
+				D908879F2CAF881D00DB2226 /* HomeViewController.swift in Sources */,
+				D90887A62CAF908000DB2226 /* PersonTableViewCell.swift in Sources */,
+				D90887992CAF866E00DB2226 /* RegistrationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
