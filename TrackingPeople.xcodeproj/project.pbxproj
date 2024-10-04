@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D90887602CAF858500DB2226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908875F2CAF858500DB2226 /* AppDelegate.swift */; };
+		D90887622CAF858500DB2226 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887612CAF858500DB2226 /* SceneDelegate.swift */; };
+		D90887642CAF858500DB2226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887632CAF858500DB2226 /* ViewController.swift */; };
+		D90887672CAF858500DB2226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90887652CAF858500DB2226 /* Main.storyboard */; };
+		D908876A2CAF858500DB2226 /* TrackingPeople.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D90887682CAF858500DB2226 /* TrackingPeople.xcdatamodeld */; };
+		D908876C2CAF858700DB2226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D908876B2CAF858700DB2226 /* Assets.xcassets */; };
+		D908876F2CAF858700DB2226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D908876D2CAF858700DB2226 /* LaunchScreen.storyboard */; };
+		D908877A2CAF858700DB2226 /* TrackingPeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887792CAF858700DB2226 /* TrackingPeopleTests.swift */; };
+		D90887842CAF858700DB2226 /* TrackingPeopleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887832CAF858700DB2226 /* TrackingPeopleUITests.swift */; };
+		D90887862CAF858700DB2226 /* TrackingPeopleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90887852CAF858700DB2226 /* TrackingPeopleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D90887762CAF858700DB2226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D90887542CAF858500DB2226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D908875B2CAF858500DB2226;
+			remoteInfo = TrackingPeople;
+		};
+		D90887802CAF858700DB2226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D90887542CAF858500DB2226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D908875B2CAF858500DB2226;
+			remoteInfo = TrackingPeople;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D908875C2CAF858500DB2226 /* TrackingPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackingPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D908875F2CAF858500DB2226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D90887612CAF858500DB2226 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D90887632CAF858500DB2226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D90887662CAF858500DB2226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D90887692CAF858500DB2226 /* TrackingPeople.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrackingPeople.xcdatamodel; sourceTree = "<group>"; };
+		D908876B2CAF858700DB2226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D908876E2CAF858700DB2226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D90887702CAF858700DB2226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90887752CAF858700DB2226 /* TrackingPeopleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackingPeopleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90887792CAF858700DB2226 /* TrackingPeopleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingPeopleTests.swift; sourceTree = "<group>"; };
+		D908877F2CAF858700DB2226 /* TrackingPeopleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackingPeopleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90887832CAF858700DB2226 /* TrackingPeopleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingPeopleUITests.swift; sourceTree = "<group>"; };
+		D90887852CAF858700DB2226 /* TrackingPeopleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingPeopleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D90887592CAF858500DB2226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90887722CAF858700DB2226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D908877C2CAF858700DB2226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90887532CAF858500DB2226 = {
+			isa = PBXGroup;
+			children = (
+				D908875E2CAF858500DB2226 /* TrackingPeople */,
+				D90887782CAF858700DB2226 /* TrackingPeopleTests */,
+				D90887822CAF858700DB2226 /* TrackingPeopleUITests */,
+				D908875D2CAF858500DB2226 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D908875D2CAF858500DB2226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D908875C2CAF858500DB2226 /* TrackingPeople.app */,
+				D90887752CAF858700DB2226 /* TrackingPeopleTests.xctest */,
+				D908877F2CAF858700DB2226 /* TrackingPeopleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D908875E2CAF858500DB2226 /* TrackingPeople */ = {
+			isa = PBXGroup;
+			children = (
+				D908875F2CAF858500DB2226 /* AppDelegate.swift */,
+				D90887612CAF858500DB2226 /* SceneDelegate.swift */,
+				D90887632CAF858500DB2226 /* ViewController.swift */,
+				D90887652CAF858500DB2226 /* Main.storyboard */,
+				D908876B2CAF858700DB2226 /* Assets.xcassets */,
+				D908876D2CAF858700DB2226 /* LaunchScreen.storyboard */,
+				D90887702CAF858700DB2226 /* Info.plist */,
+				D90887682CAF858500DB2226 /* TrackingPeople.xcdatamodeld */,
+			);
+			path = TrackingPeople;
+			sourceTree = "<group>";
+		};
+		D90887782CAF858700DB2226 /* TrackingPeopleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D90887792CAF858700DB2226 /* TrackingPeopleTests.swift */,
+			);
+			path = TrackingPeopleTests;
+			sourceTree = "<group>";
+		};
+		D90887822CAF858700DB2226 /* TrackingPeopleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D90887832CAF858700DB2226 /* TrackingPeopleUITests.swift */,
+				D90887852CAF858700DB2226 /* TrackingPeopleUITestsLaunchTests.swift */,
+			);
+			path = TrackingPeopleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D908875B2CAF858500DB2226 /* TrackingPeople */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90887892CAF858700DB2226 /* Build configuration list for PBXNativeTarget "TrackingPeople" */;
+			buildPhases = (
+				D90887582CAF858500DB2226 /* Sources */,
+				D90887592CAF858500DB2226 /* Frameworks */,
+				D908875A2CAF858500DB2226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackingPeople;
+			productName = TrackingPeople;
+			productReference = D908875C2CAF858500DB2226 /* TrackingPeople.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D90887742CAF858700DB2226 /* TrackingPeopleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D908878C2CAF858700DB2226 /* Build configuration list for PBXNativeTarget "TrackingPeopleTests" */;
+			buildPhases = (
+				D90887712CAF858700DB2226 /* Sources */,
+				D90887722CAF858700DB2226 /* Frameworks */,
+				D90887732CAF858700DB2226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D90887772CAF858700DB2226 /* PBXTargetDependency */,
+			);
+			name = TrackingPeopleTests;
+			productName = TrackingPeopleTests;
+			productReference = D90887752CAF858700DB2226 /* TrackingPeopleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D908877E2CAF858700DB2226 /* TrackingPeopleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D908878F2CAF858700DB2226 /* Build configuration list for PBXNativeTarget "TrackingPeopleUITests" */;
+			buildPhases = (
+				D908877B2CAF858700DB2226 /* Sources */,
+				D908877C2CAF858700DB2226 /* Frameworks */,
+				D908877D2CAF858700DB2226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D90887812CAF858700DB2226 /* PBXTargetDependency */,
+			);
+			name = TrackingPeopleUITests;
+			productName = TrackingPeopleUITests;
+			productReference = D908877F2CAF858700DB2226 /* TrackingPeopleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D90887542CAF858500DB2226 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D908875B2CAF858500DB2226 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D90887742CAF858700DB2226 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D908875B2CAF858500DB2226;
+					};
+					D908877E2CAF858700DB2226 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D908875B2CAF858500DB2226;
+					};
+				};
+			};
+			buildConfigurationList = D90887572CAF858500DB2226 /* Build configuration list for PBXProject "TrackingPeople" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D90887532CAF858500DB2226;
+			productRefGroup = D908875D2CAF858500DB2226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D908875B2CAF858500DB2226 /* TrackingPeople */,
+				D90887742CAF858700DB2226 /* TrackingPeopleTests */,
+				D908877E2CAF858700DB2226 /* TrackingPeopleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D908875A2CAF858500DB2226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D908876F2CAF858700DB2226 /* LaunchScreen.storyboard in Resources */,
+				D908876C2CAF858700DB2226 /* Assets.xcassets in Resources */,
+				D90887672CAF858500DB2226 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90887732CAF858700DB2226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D908877D2CAF858700DB2226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D90887582CAF858500DB2226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90887642CAF858500DB2226 /* ViewController.swift in Sources */,
+				D90887602CAF858500DB2226 /* AppDelegate.swift in Sources */,
+				D90887622CAF858500DB2226 /* SceneDelegate.swift in Sources */,
+				D908876A2CAF858500DB2226 /* TrackingPeople.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90887712CAF858700DB2226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D908877A2CAF858700DB2226 /* TrackingPeopleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D908877B2CAF858700DB2226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90887862CAF858700DB2226 /* TrackingPeopleUITestsLaunchTests.swift in Sources */,
+				D90887842CAF858700DB2226 /* TrackingPeopleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D90887772CAF858700DB2226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D908875B2CAF858500DB2226 /* TrackingPeople */;
+			targetProxy = D90887762CAF858700DB2226 /* PBXContainerItemProxy */;
+		};
+		D90887812CAF858700DB2226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D908875B2CAF858500DB2226 /* TrackingPeople */;
+			targetProxy = D90887802CAF858700DB2226 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D90887652CAF858500DB2226 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90887662CAF858500DB2226 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D908876D2CAF858700DB2226 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D908876E2CAF858700DB2226 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D90887872CAF858700DB2226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D90887882CAF858700DB2226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D908878A2CAF858700DB2226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U7FA696SS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrackingPeople/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = korbek.TrackingPeople;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D908878B2CAF858700DB2226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U7FA696SS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrackingPeople/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = korbek.TrackingPeople;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D908878D2CAF858700DB2226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U7FA696SS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = korbek.TrackingPeopleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackingPeople.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrackingPeople";
+			};
+			name = Debug;
+		};
+		D908878E2CAF858700DB2226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U7FA696SS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = korbek.TrackingPeopleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackingPeople.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrackingPeople";
+			};
+			name = Release;
+		};
+		D90887902CAF858700DB2226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U7FA696SS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = korbek.TrackingPeopleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrackingPeople;
+			};
+			name = Debug;
+		};
+		D90887912CAF858700DB2226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U7FA696SS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = korbek.TrackingPeopleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrackingPeople;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D90887572CAF858500DB2226 /* Build configuration list for PBXProject "TrackingPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90887872CAF858700DB2226 /* Debug */,
+				D90887882CAF858700DB2226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90887892CAF858700DB2226 /* Build configuration list for PBXNativeTarget "TrackingPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D908878A2CAF858700DB2226 /* Debug */,
+				D908878B2CAF858700DB2226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D908878C2CAF858700DB2226 /* Build configuration list for PBXNativeTarget "TrackingPeopleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D908878D2CAF858700DB2226 /* Debug */,
+				D908878E2CAF858700DB2226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D908878F2CAF858700DB2226 /* Build configuration list for PBXNativeTarget "TrackingPeopleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90887902CAF858700DB2226 /* Debug */,
+				D90887912CAF858700DB2226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D90887682CAF858500DB2226 /* TrackingPeople.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D90887692CAF858500DB2226 /* TrackingPeople.xcdatamodel */,
+			);
+			currentVersion = D90887692CAF858500DB2226 /* TrackingPeople.xcdatamodel */;
+			path = TrackingPeople.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D90887542CAF858500DB2226 /* Project object */;
+}
